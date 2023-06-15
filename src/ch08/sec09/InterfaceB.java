@@ -1,2 +1,5 @@
-package ch08.sec09;public interface InerfaceB {
+package ch08.sec09;
+
+public interface InterfaceB {
+    void methodB();
 }

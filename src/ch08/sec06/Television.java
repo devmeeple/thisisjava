@@ -1,4 +1,4 @@
-package ch08.sec05;
+package ch08.sec06;
 
 public class Television implements RemoteControl {
 
@@ -15,9 +15,9 @@ public class Television implements RemoteControl {
 
     @Override
     public void setVolume(int volume) {
-        if(volume > ch08.sec04.RemoteControl.MAX_VOLUME) {
-            this.volume = ch08.sec04.RemoteControl.MAX_VOLUME;
-        } else if(volume < ch08.sec04.RemoteControl.MIN_VOLUME) {
+        if(volume > RemoteControl.MAX_VOLUME) {
+            this.volume = RemoteControl.MAX_VOLUME;
+        } else if(volume < RemoteControl.MIN_VOLUME) {
             this.volume = RemoteControl.MIN_VOLUME;
         } else {
             this.volume = volume;
