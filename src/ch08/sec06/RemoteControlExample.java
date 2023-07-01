@@ -1,4 +1,4 @@
-package ch08.sec05;
+package ch08.sec06;
 
 public class RemoteControlExample {
     public static void main(String[] args) {
@@ -20,5 +20,8 @@ public class RemoteControlExample {
 
         rc.setMute(true);
         rc.setMute(false);
+        System.out.println();
+
+        RemoteControl.changeBattery();
     }
 }
